@@ -1,0 +1,32 @@
+.PictureSelect {
+  position: relative;
+  margin: 30px;
+}
+
+.picture_item {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.describe {
+  position: absolute;
+  left: 25px;
+  top: 2px;
+}
+
+img {
+  width: 270px;
+  height: 200px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: white;
+}
